@@ -1,0 +1,23 @@
+.central-container{
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    background-color: blanchedalmond;
+    margin: auto;
+    padding: 1rem;
+    word-wrap:break-word;
+    color: black;
+}
+.default-button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.next{
+    align-self: center;
+}
+.check{
+    align-self: center;
+}
+table, th , td {
+    border: 1px solid black;
+}
