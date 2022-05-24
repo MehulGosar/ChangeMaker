@@ -11,6 +11,11 @@
 .default-button{
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+    margin: 1rem 0rem;
+}
+
+.bill-amount{
+    word-wrap: break-word;
 }
 .next{
     align-self: center;
