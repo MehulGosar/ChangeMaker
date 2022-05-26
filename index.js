@@ -54,6 +54,7 @@ nextButton.addEventListener("click", function nextButtonListener(){
                 calculateChange(amountToReturn);
             }
             else{
+                //Can also use 'Number()' instead of '+' below
                 if(Number.isInteger(+billAmount.value)){
                     setErrorMessage("Please enter correct Cash- given. The value must be Integer and greater than Billed amount.");
                     setReturnChangeDisplayNone();
@@ -66,6 +67,7 @@ nextButton.addEventListener("click", function nextButtonListener(){
         })
         
     }else{
+        //Can also use 'Number()' instead of '+' below
         if(Number.isInteger(+billAmount.value)){
             setErrorMessage("Please enter correct billed- amount. The value must be Integer and  than 0.");
             
